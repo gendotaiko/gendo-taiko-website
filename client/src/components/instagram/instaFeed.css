@@ -1,0 +1,11 @@
+.container img {
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+  
+.container img:hover {
+    opacity: .5;
+}

@@ -34,7 +34,7 @@ const Navigation = () => {
 
 	return (
 		<Router>
-			<Box p={1} sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, backgroundColor: 'black', alignItems: 'center'}}>
+			<Box p={1} sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, backgroundColor: 'black', alignItems: 'center' }}>
 				<IconButton
 					size="large"
 					aria-label="menu"
@@ -69,14 +69,11 @@ const Navigation = () => {
 						</MenuItem>
 					))}
 				</Menu>
-				<Typography
-					variant="navHead"
-					noWrap
-					component="div"
-					sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-				>
-					GENDO TAIKO
-				</Typography>
+				<Box display='flex' alignItems='center'>
+					<Typography variant='navHead' sx={{ mr: 1 }}>GENDO</Typography>
+					<img src={crest} height='25px' alt='Gendo Crest' />
+					<Typography variant='navHead' sx={{ ml: 1 }}>TAIKO</Typography>
+				</Box>
 			</Box>
 			<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 				<AppBar position='static'>

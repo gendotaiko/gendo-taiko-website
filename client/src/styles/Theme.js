@@ -1,7 +1,7 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 import { grey } from '@mui/material/colors';
 
-const theme = createTheme({
+let theme = createTheme({
 	palette: {
 		background: {
 			default: '#242424',
@@ -56,8 +56,15 @@ const theme = createTheme({
 			display: 'block',
 			fontWeight: 500,
 			fontSize: '0.75rem',
+		}, 
+		footer: {
+			fontFamily: 'neue-haas-grotesk-display, sans-serif',
+			display: 'block', 
+			fontWeight: 700,
 		}
 	},
 });
+
+theme = responsiveFontSizes(theme);
 
 export default theme;
