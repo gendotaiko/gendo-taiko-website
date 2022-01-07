@@ -10,9 +10,9 @@ import {
 const About = () => {
 	return (
 		<Box>
-			<Grid container px={{xs: 4, lg: 12, xl: 16}} py={{xs: 4, lg: 8}}>
+			<Grid container px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 				<Grid item>
-					<Typography variant='h1' py={{ xs: 2 }}>WHAT IS GENDO TAIKO?</Typography>
+					<Typography variant='h1' pt={{ xs: 2 }}>WHAT IS GENDO TAIKO?</Typography>
 				</Grid>
 			</Grid>
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}}>
@@ -28,9 +28,9 @@ const About = () => {
 					<Typography variant='body1'>wadaiko gensō</Typography>
 				</Grid>
 			</Grid>
-			<Grid container px={{xs: 4, lg: 12, xl: 16}} py={{xs: 4, lg: 8}}>
+			<Grid container px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 				<Grid item>
-					<Typography variant='h1' py={{ xs: 2 }}>TAIKO IN AMERICA</Typography>
+					<Typography variant='h1' pt={{ xs: 2 }}>TAIKO IN AMERICA</Typography>
 				</Grid>
 			</Grid>
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}}>
