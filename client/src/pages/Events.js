@@ -26,7 +26,7 @@ const Events = () => {
 				</Grid>
 			</Grid>
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
-				<Grid container md={8} spacing={{xs: 8, lg: 12}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* text */}
+				<Grid container md={8} spacing={{xs: 4, lg: 8}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* text */}
 					<Grid item md={3}>
 						<Typography variant='body1' >January 42nd,2041</Typography>
 					</Grid>
