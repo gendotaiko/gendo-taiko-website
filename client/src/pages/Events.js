@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { 
 	Box, 
 	Grid,
@@ -11,8 +11,34 @@ import {
 import shimeImage from '../media/taiko2019_promo_15.jpg';
 import Image from '../components/Image';
 
+
 const Events = () => {
-	{/* switch fiddling */}
+	const getData=()=>{
+		fetch('./events.json'
+			,{
+				headers : { 
+					'Content-Type': 'application/json',
+					'Accept': 'application/json'
+				}
+			}
+		)
+			.then(function(response){
+				console.log(response);
+				return response.json();
+			})
+			.then(function(myJson) {
+				console.log(myJson);
+				setCurrEvents(myJson);
+			});
+	};
+	useEffect(()=>{
+		getData();
+	},[]);
+	const [currEvents, setCurrEvents] = React.useState([]);
+	
+	// const [pastEvents, setPastEvents] = React.useState([]);
+
+	{/* switch fiddling */} 
 	const [checked, setChecked] = React.useState(false);
 	const handleChange = () => {
 		setChecked((prev) => !prev);
@@ -84,7 +110,14 @@ const Events = () => {
 					</Grid>
 				</Grid>
 			</Grid>
-
+			<Grid container>
+				{/* {currEvents.map((list, index) => (
+					<Typography key={index}>
+						{list.date}
+						{list.event}
+					</Typography>
+				))} */}
+			</Grid>
 		</Box>	
 
 	);
