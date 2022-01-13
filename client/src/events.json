@@ -1,14 +1,15 @@
+
 {
     "current_events": [
-      {"id": 1, "date":"1/1/11", "event":"ECTC 2041  •  website.com", "logistics":"4023 Address Street Providence, Rhode Island 02969"},
-      {"id": 2, "date":"2/2/22", "event":"ECTC 2041  •  website.com", "logistics":"4023 Address Street Providence, Rhode Island 02969"},
-      {"id": 3, "date":"3/3/33", "event":"ECTC 2041  •  website.com", "logistics":"4023 Address Street Providence, Rhode Island 02969"}
+      {"id": 1, "date":"1/1/11", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"},
+      {"id": 2, "date":"2/2/22", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"},
+      {"id": 3, "date":"3/3/33", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"}
     ],
 
     "past_events":[
-      {"id": 1, "date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah"},
-      {"id": 2,"date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah"},
-      {"id": 3,"date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah"}
+      {"id": 1, "date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"},
+      {"id": 2, "date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"},
+      {"id": 3, "date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"}
     ]
     
     
