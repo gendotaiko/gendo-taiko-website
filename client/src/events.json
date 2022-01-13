@@ -1,0 +1,14 @@
+{
+    "current_events": [
+      {"id": 1, "date":"1/1/11", "event":"ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969"},
+      {"id": 2, "date":"2/2/22", "event":"ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969"},
+      {"id": 3, "date":"3/3/33", "event":"ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969"}
+    ],
+
+    "past_events":[
+      {"date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah"},
+      {"date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah"},
+      {"date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah"}
+    ]
+    
+}

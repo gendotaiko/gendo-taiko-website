@@ -1,4 +1,5 @@
-import React, {useEffect} from 'react';
+import React, {useState} from 'react';
+// import useEffect from 'react';
 import { 
 	Box, 
 	Grid,
@@ -6,40 +7,17 @@ import {
 	Switch,
 	FormControlLabel,
 	Collapse
-	
 } from '@mui/material';
+import eventsData from '../events.json';
 import shimeImage from '../media/taiko2019_promo_15.jpg';
 import Image from '../components/Image';
 
 
 const Events = () => {
-	const getData=()=>{
-		fetch('./events.json'
-			,{
-				headers : { 
-					'Content-Type': 'application/json',
-					'Accept': 'application/json'
-				}
-			}
-		)
-			.then(function(response){
-				console.log(response);
-				return response.json();
-			})
-			.then(function(myJson) {
-				console.log(myJson);
-				setCurrEvents(myJson);
-			});
-	};
-	useEffect(()=>{
-		getData();
-	},[]);
-	const [currEvents, setCurrEvents] = React.useState([]);
-	
-	// const [pastEvents, setPastEvents] = React.useState([]);
-
+	const currEvents = eventsData.current_events;
+	console.log(currEvents);
 	{/* switch fiddling */} 
-	const [checked, setChecked] = React.useState(false);
+	const [checked, setChecked] = useState(false);
 	const handleChange = () => {
 		setChecked((prev) => !prev);
 	};
@@ -53,30 +31,16 @@ const Events = () => {
 			</Grid>
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
 				<Grid container md={8} spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* text */}
-					<Grid item md={3}>
-						<Typography variant='body1'>January 42nd,2041</Typography>
-					</Grid>
-					<Grid item md={9}>
-						<Typography variant='body1'>ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969</Typography>
-					</Grid>
-					<Grid item md={3}>
-						<Typography variant='body1'>January 42nd, 2041</Typography>
-					</Grid>
-					<Grid item md={9}>
-						<Typography variant='body1'>ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969</Typography>
-					</Grid>
-					<Grid item md={3}>
-						<Typography variant='body1'>January 42nd, 2041</Typography>
-					</Grid>
-					<Grid item md={9}>
-						<Typography variant='body1'>ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969</Typography>
-					</Grid>
-					<Grid item md={3}>
-						<Typography variant='body1'>January 42nd, 2041</Typography>
-					</Grid>
-					<Grid item md={9}>
-						<Typography variant='body1'>ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969</Typography>
-					</Grid>
+					{currEvents.map((e) => (
+						<Grid container key={e.id}>
+							<Grid item md={3}>
+								<Typography variant='body1'>{e.date}</Typography>
+							</Grid>
+							<Grid item md={9}>
+								<Typography variant='body1'>{e.event}</Typography>
+							</Grid>
+						</Grid>
+					))}
 				</Grid>
 				<Grid item md={4}> {/* Image that spans whole thing */}
 					<Image src={shimeImage} /> {/* placeholder image */}
@@ -110,16 +74,8 @@ const Events = () => {
 					</Grid>
 				</Grid>
 			</Grid>
-			<Grid container>
-				{/* {currEvents.map((list, index) => (
-					<Typography key={index}>
-						{list.date}
-						{list.event}
-					</Typography>
-				))} */}
-			</Grid>
+	
 		</Box>	
-
 	);
 };
 
