@@ -16,6 +16,8 @@ import Image from '../components/Image';
 const Events = () => {
 	const currEvents = eventsData.current_events;
 	console.log(currEvents);
+	const pastEvents = eventsData.past_events;
+	console.log(pastEvents);
 	{/* switch fiddling */} 
 	const [checked, setChecked] = useState(false);
 	const handleChange = () => {
@@ -30,14 +32,19 @@ const Events = () => {
 				</Grid>
 			</Grid>
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
-				<Grid container md={8} spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* text */}
+				<Grid container md={8}> {/* text */}
 					{currEvents.map((e) => (
-						<Grid container key={e.id}>
+						<Grid container key={e.id} spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 							<Grid item md={3}>
 								<Typography variant='body1'>{e.date}</Typography>
 							</Grid>
 							<Grid item md={9}>
 								<Typography variant='body1'>{e.event}</Typography>
+							</Grid>
+							<Grid item md={3}>
+							</Grid>
+							<Grid item md={9}>
+								<Typography variant='body1'>{e.logistics}</Typography>
 							</Grid>
 						</Grid>
 					))}
@@ -54,27 +61,30 @@ const Events = () => {
 			</Grid> 
 
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
-				<Grid container md={11.25} spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* text */}
-					<Grid item md={2}> 
-						<Typography variant='body1'>January 42nd, 2041</Typography>
-					</Grid>
-					<Grid item md={10}> 
-						<Typography variant='body1'>ECTC 2041   •  website.com 4023 Address Street Providence, Rhode Island 02969</Typography>
-						<FormControlLabel control={<Switch checked={checked} onChange={handleChange} />}label="Show More"/>
-						<Collapse in={checked}>
-							<Grid container spacing={{xs: 2, lg: 4}}>
-								<Grid item md={8}>
-									<Typography variant='body1'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Arcu dui vivamus arcu felis bibendum ut tristique et. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Purus non enim praesent elementum. Mauris in aliquam sem fringilla ut.</Typography>
-								</Grid>
-								<Grid item md={4}>
-									<Image src={shimeImage} /> {/* placeholder image */}
-								</Grid>
+				<Grid container md={11.25}> {/* text */}
+					{pastEvents.map((e) => (
+						<Grid container key ={e.id} spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
+							<Grid item md={2}> 
+								<Typography variant='body1'>{e.date}</Typography>
 							</Grid>
-						</Collapse>
-					</Grid>
+							<Grid item md={10}> 
+								<Typography variant='body1'>{e.event} </Typography>
+								<FormControlLabel control={<Switch checked={checked} onChange={handleChange} />}label="Show More"/>
+								<Collapse in={checked}>
+									<Grid container spacing={{xs: 2, lg: 4}}>
+										<Grid item md={8}>
+											<Typography variant='body1'> {e.details}</Typography>
+										</Grid>
+										<Grid item md={4}>
+											<Image src={shimeImage} /> {/* placeholder image */}
+										</Grid>
+									</Grid>
+								</Collapse>
+							</Grid>
+						</Grid>		
+					))}
 				</Grid>
 			</Grid>
-	
 		</Box>	
 	);
 };
