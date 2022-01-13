@@ -10,10 +10,6 @@ import {
 const About = () => {
 	return (
 		<Box>
-
-
-
-			
 			<Grid container px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 				<Grid item>
 					<Typography variant='h1' pt={{ xs: 2 }}>WHAT IS GENDO TAIKO?</Typography>

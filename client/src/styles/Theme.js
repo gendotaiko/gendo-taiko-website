@@ -14,6 +14,7 @@ let theme = createTheme({
 		fontFamily: 'neue-haas-grotesk-display, sans-serif',
 		h1: {
 			fontWeight: 200,
+			fontSize: '3rem', /* TODO: make this responsive */
 			color: '#ffffff',
 		},
 		h2: {
@@ -43,7 +44,7 @@ let theme = createTheme({
 			fontFamily: 'source-han-serif-japanese, serif',
 			display: 'block',
 			fontWeight: 900,
-			fontSize: '5rem', /* TODO: make this reponsive */
+			fontSize: '3rem', /* TODO: make this reponsive */
 		},
 		navHead: {
 			fontFamily: 'neue-haas-grotesk-display, sans-serif',
