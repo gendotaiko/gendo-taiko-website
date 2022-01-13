@@ -8,7 +8,6 @@ import {
 	Collapse
 } from '@mui/material';
 import Image from '../components/Image';
-import shimeImage from '../media/taiko2019_promo_15.jpg';
 
 
 const Event = (props) => {
@@ -30,7 +29,7 @@ const Event = (props) => {
 	const createEvent = () => {
 		if (props.isCurrent) {
 			return (
-				<Grid container columnSpacing={{xs:2, md: 6}}>
+				<Grid container spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 					<Grid item md={3}>
 						<Typography variant='body1'>{props.date}</Typography>
 					</Grid>
@@ -46,7 +45,7 @@ const Event = (props) => {
 			);
 		} else {
 			return(
-				<Grid container columnSpacing={{xs:2, md: 6}}>
+				<Grid container spacing={{xs: 2, lg: 4}} pl={{xs: 12, md: 16, lg: 20, xl: 24}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>
 					<Grid item md={2}> 
 						<Typography variant='body1'>{props.date}</Typography>
 					</Grid>
@@ -59,7 +58,7 @@ const Event = (props) => {
 									<Typography variant='body1'> {props.details}</Typography>
 								</Grid>
 								<Grid item md={4}>
-									<Image src={shimeImage} /> {/* placeholder image */}
+									<Image src={props.img} /> {/* placeholder image */}
 								</Grid>
 							</Grid>
 						</Collapse>
