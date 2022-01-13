@@ -43,7 +43,7 @@ const Events = () => {
 				</Grid>
 			</Grid> 
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
-				<Grid container md={12}> {/* text */}
+				<Grid container md={11.25}> {/* text */}
 					{pastEvents.map((e) => (
 						<Event key ={e.id} isCurrent ={false} date ={e.date} event={e.event} details={e.details} img={e.img}></Event>
 					))}
