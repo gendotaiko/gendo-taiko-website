@@ -3,18 +3,20 @@ import PropTypes from 'prop-types';
 import { 
 	Grid,
 	Typography, 
-	Switch,
-	FormControlLabel,
-	Collapse
+	Collapse,
+	Link
 } from '@mui/material';
 import Image from '../components/Image';
+// import ExpandLess from '@mui/icons-material/ExpandLess';
+// import ExpandMore from '@mui/icons-material/ExpandMore';
+// import { Add } from '@mui/icons-material';
 
 
 const Event = (props) => {
-	const [checked, setChecked] = useState(false);
+	const [open, setOpen] = useState(false);
 
 	const handleChange = () => {
-		setChecked((prev) => !prev);
+		setOpen((prev) => !prev);
 	};
 
 	Event.propTypes = {
@@ -51,8 +53,8 @@ const Event = (props) => {
 					</Grid>
 					<Grid item md={10}> 
 						<Typography variant='body1'>{props.event} </Typography>
-						<FormControlLabel control={<Switch checked={checked} onChange={handleChange} />}label="Show More"/>
-						<Collapse in={checked}>
+						
+						<Collapse in={open}>
 							<Grid container spacing={{xs: 2, lg: 4}}>
 								<Grid item md={8}>
 									<Typography variant='body1'> {props.details}</Typography>
@@ -62,6 +64,11 @@ const Event = (props) => {
 								</Grid>
 							</Grid>
 						</Collapse>
+						<Link component= 'button' onClick={handleChange} color= '#ffffff' variant='link'>
+							{/* <Add/> */}
+							{/* {open ? <ExpandLess/> : <ExpandMore/>} */}
+							{open ? 'Show Less' : 'Show More'}
+						</Link>
 					</Grid>
 				</Grid>		
 			);

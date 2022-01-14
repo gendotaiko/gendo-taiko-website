@@ -60,7 +60,14 @@
     "prop-types" "^15.7.2"
     "react-is" "^17.0.2"
 
-"@mui/material@^5.2.7":
+"@mui/icons-material@^5.2.5":
+  "integrity" "sha512-uQiUz+l0xy+2jExyKyU19MkMAR2F7bQFcsQ5hdqAtsB14Jw2zlmIAD55mV6f0NxKCut7Rx6cA3ZpfzlzAfoK8Q=="
+  "resolved" "https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.2.5.tgz"
+  "version" "5.2.5"
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+
+"@mui/material@^5.0.0", "@mui/material@^5.2.7":
   "integrity" "sha512-JaDl9GJSV17QLf4OoDUZKvVjZ/7UvqOBAxwLwUTnKZEME4REaGTkaAeHrzLpcKCm0LlNGD2HOKAIeykI6WJiqg=="
   "resolved" "https://registry.npmjs.org/@mui/material/-/material-5.2.7.tgz"
   "version" "5.2.7"
