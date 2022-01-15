@@ -7,9 +7,9 @@
     ],
 
     "past_events":[
-      {"id": 1, "date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"},
-      {"id": 2, "date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"},
-      {"id": 3, "date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah", "img":"/media/taiko2019_promo_15.jpg"}
+      {"id": 1, "date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"},
+      {"id": 2, "date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"},
+      {"id": 3, "date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"}
     ]
     
     

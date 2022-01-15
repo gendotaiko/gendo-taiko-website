@@ -11,7 +11,6 @@ import Image from '../components/Image';
 // import ExpandMore from '@mui/icons-material/ExpandMore';
 // import { Add } from '@mui/icons-material';
 
-
 const Event = (props) => {
 	const [open, setOpen] = useState(false);
 
@@ -60,7 +59,7 @@ const Event = (props) => {
 									<Typography variant='body1'> {props.details}</Typography>
 								</Grid>
 								<Grid item md={4}>
-									<Image src={props.img} /> {/* placeholder image */}
+									<Image src={process.env.PUBLIC_URL + '/images/' + props.img} /> {/* placeholder image */}
 								</Grid>
 							</Grid>
 						</Collapse>
