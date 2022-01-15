@@ -17,7 +17,8 @@ import Media from '../pages/Media';
 import Contact from '../pages/Contact';
 import Reference from '../pages/Reference';
 import NavLink from './NavLink';
-import crest from '../media/GendoCrest.png';
+
+const crest = process.env.PUBLIC_URL + '/images/GendoCrest.png';
 
 const pages = [['HOME', '/'], ['ABOUT', '/about'], ['EVENTS', '/events'], ['REFERENCE', '/reference'], ['MEMBERS', '/members'], ['MEDIA', '/media'], ['CONTACT', '/contact']];
 

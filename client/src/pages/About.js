@@ -1,5 +1,4 @@
 import React from 'react';
-import shimeImage from '../media/taiko2019_promo_15.jpg';
 import Image from '../components/Image';
 import { 
 	Box, 
@@ -40,7 +39,7 @@ const About = () => {
 					<Typography variant='body1' pb={{ xs: 8 }}>Ullamcorper a lacus vestibulum sed arcu. Imperdiet proin fermentum leo vel orci porta. Bibendum arcu vitae elementum curabitur vitae nunc sed. Cursus turpis massa tincidunt dui ut ornare. Bibendum at varius vel pharetra.</Typography>
 				</Grid>
 				<Grid item md={4}>
-					<Image src={shimeImage} /> {/* placeholder image */}
+					<Image src={process.env.PUBLIC_URL + '/images/' + 'taiko2019_promo_15.jpg'} /> {/* placeholder image */}
 				</Grid>
 			</Grid>
 		</Box>
