@@ -15,7 +15,7 @@ import yataiImage from '../media/taiko2019_promo_7.jpg';
 import Image from '../components/Image';
 
 
-
+// Placeholder images
 const itemData = [
 	{
 		img: miyakeImage,
@@ -85,7 +85,6 @@ const Media = () => {
 				</ImageList>
 			</Container>
 		</Box>
-		
 	);
 };
 
