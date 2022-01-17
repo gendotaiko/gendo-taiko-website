@@ -9,7 +9,6 @@ import {
 import Image from '../components/Image';
 // import ExpandLess from '@mui/icons-material/ExpandLess';
 // import ExpandMore from '@mui/icons-material/ExpandMore';
-// import { Add } from '@mui/icons-material';
 
 const Event = (props) => {
 	const [open, setOpen] = useState(false);
@@ -64,7 +63,6 @@ const Event = (props) => {
 							</Grid>
 						</Collapse>
 						<Link component= 'button' onClick={handleChange} color= '#ffffff' variant='link'>
-							{/* <Add/> */}
 							{/* {open ? <ExpandLess/> : <ExpandMore/>} */}
 							{open ? 'Show Less' : 'Show More'}
 						</Link>

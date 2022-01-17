@@ -16,7 +16,6 @@ const Events = () => {
 	console.log(currEvents);
 	const pastEvents = eventsData.past_events;
 	console.log(pastEvents);
-	{/* switch fiddling */} 
 
 	return (
 		<Box> 
@@ -36,7 +35,6 @@ const Events = () => {
 					<Image src={shimeImage} /> {/* placeholder image */}
 				</Grid>
 			</Grid>
-			
 			<Grid container px={{xs: 4, lg: 12, xl: 16}} pb={{xs: 2, lg: 4}}> {/* past events title */}
 				<Grid item>
 					<Typography variant='h1' pt={{ xs: 2 }}>PAST EVENTS</Typography>
