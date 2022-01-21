@@ -15,6 +15,7 @@ import Events from '../pages/Events';
 import Members from '../pages/Members';
 import Media from '../pages/Media';
 import Contact from '../pages/Contact';
+import PerformanceInquiry from '../pages/PerformanceInquiry';
 import Reference from '../pages/Reference';
 import NavLink from './NavLink';
 
@@ -120,6 +121,9 @@ const Navigation = () => {
 				</Route>
 				<Route path='/contact'>
 					<Contact />
+				</Route>
+				<Route path='/performance-inquiry'>
+					<PerformanceInquiry />
 				</Route>
 				<Route path='/'>
 					<Home />
