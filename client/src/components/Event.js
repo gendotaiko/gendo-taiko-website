@@ -20,6 +20,7 @@ const Event = (props) => {
 	Event.propTypes = {
 		date: PropTypes.any,
 		event: PropTypes.any,
+		link: PropTypes.any,
 		isChecked: PropTypes.any,
 		details: PropTypes.any,
 		isCurrent: PropTypes.boolean,
@@ -37,6 +38,7 @@ const Event = (props) => {
 						<Typography variant='body1'>{props.event}</Typography>
 					</Grid>
 					<Grid item md={3}>
+						<Link component= 'button' to = {props.link} color= '#ffffff' variant='link'>Link</Link>
 					</Grid>
 					<Grid item md={9}>
 						<Typography variant='body1'>{props.details}</Typography>

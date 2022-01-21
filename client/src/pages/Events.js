@@ -28,7 +28,7 @@ const Events = () => {
 			<Grid container spacing={{xs: 8, lg: 12}} px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}> {/* first chunk container */}
 				<Grid container md={8} > {/* text */}
 					{currEvents.map((e) => (
-						<Event key ={e.id} isCurrent={true} date ={e.date} event={e.event} details={e.details}></Event>
+						<Event key ={e.id} isCurrent={true} date ={e.date} event={e.event} link ={e.link} details={e.details}></Event>
 					))}
 				</Grid>
 				<Grid item md={4}> {/* Image that spans whole thing */}

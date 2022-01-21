@@ -1,15 +1,16 @@
 
 {
     "current_events": [
-      {"id": 1, "date":"1/1/11", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"},
-      {"id": 2, "date":"2/2/22", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"},
-      {"id": 3, "date":"3/3/33", "event":"ECTC 2041 • website.com", "details":"4023 Address Street Providence, Rhode Island 02969"}
+      {"id": 1, "date":"02/11/22", "event":"CSA Performance • ", "link": "/https://browncsa.github.io/csa/", "details":"4023 Address Street Providence, Rhode Island 02903"},
+      {"id": 2, "date":"04/15/22", "event":"Spring Show Name • Night One • Ticket Link", "link": "yes", "details":"RISD Auditorium • 17 Canal Walk, Providence, Rhode Island 02903"},
+      {"id": 3, "date":"04/16/22", "event":"Spring Show Name • Night Two • Ticket Link", "link": "yes", "details":"RISD Auditorium • 17 Canal Walk, Providence, Rhode Island 02903"}
     ],
 
     "past_events":[
-      {"id": 1, "date":"4/4/44", "event":"ECTC", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"},
-      {"id": 2, "date":"5/5/55", "event":"Waterfire", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"},
-      {"id": 3, "date":"6/6/66", "event":"Tufts Matsuri", "details":"lorem ipsum blah blah", "img":"taiko2019_promo_15.jpg"}
+      {"id": 1, "date":"11/19/21", "event":"Discover the World with RISD OISS", "details":"To celebrate the diverse, international student body of RISD, Gendo Taiko performed at the Discover the World event hosted by the Office of International Student Services.", "img":"taiko2019_promo_15.jpg"},
+      {"id": 2, "date":"11/06/21", "event":"Tufts Matsuri", "details":"Invited by the Japanese Cultural Club at Tufts University, Gendo Taiko performed at their annual Matsuri.", "img":"taiko2019_promo_15.jpg"},
+      {"id": 3, "date":"11/05/21", "event":"Wheeler International Week Show", "details":"We played a short show alongside the talented students of The Wheeler School celebrating their cultural heritage through the arts.", "img":"taiko2019_promo_15.jpg"},
+      {"id": 4, "date":"10/16/21", "event":"Waterfire", "details":"Gendo Taiko continued a longstanding tradition of performing at the popular Providence attraction Waterfire.", "img":"taiko2019_promo_15.jpg"}
     ]
     
     
