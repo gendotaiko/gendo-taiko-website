@@ -16,7 +16,6 @@ import Members from '../pages/Members';
 import Media from '../pages/Media';
 import Contact from '../pages/Contact';
 import PerformanceInquiry from '../pages/PerformanceInquiry';
-import Reference from '../pages/Reference';
 import NavLink from './NavLink';
 
 const crest = process.env.PUBLIC_URL + '/images/GendoCrest.png';
