@@ -62,7 +62,7 @@ let theme = createTheme({
 			fontFamily: 'neue-haas-grotesk-display, sans-serif',
 			display: 'block', 
 			fontWeight: 700,
-		}
+		},
 	},
 });
 

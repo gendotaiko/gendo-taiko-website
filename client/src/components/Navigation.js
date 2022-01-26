@@ -21,7 +21,7 @@ import NavLink from './NavLink';
 
 const crest = process.env.PUBLIC_URL + '/images/GendoCrest.png';
 
-const pages = [['HOME', '/'], ['ABOUT', '/about'], ['EVENTS', '/events'], ['REFERENCE', '/reference'], ['MEMBERS', '/members'], ['MEDIA', '/media'], ['CONTACT', '/contact']];
+const pages = [['HOME', '/'], ['ABOUT', '/about'], ['EVENTS', '/events'], ['MEMBERS', '/members'], ['MEDIA', '/media'], ['CONTACT', '/contact']];
 
 const Navigation = () => {
 	const [anchorElNav, setAnchorElNav] = useState(null);
@@ -95,7 +95,6 @@ const Navigation = () => {
 							</Link>
 						</Box>
 						<Grid container direction='row' justifyContent='space-around' alignItems='center' maxWidth={'33%'}>
-							<NavLink path='/reference' text='Reference' />
 							<NavLink path='/members' text='MEMBERS' />
 							<NavLink path='/media' text='MEDIA' />
 							<NavLink path='/contact' text='CONTACT' />
@@ -109,9 +108,6 @@ const Navigation = () => {
 				</Route>
 				<Route path='/events'>
 					<Events />
-				</Route>
-				<Route path='/reference'>
-					<Reference />
 				</Route>
 				<Route path='/members'>
 					<Members />
