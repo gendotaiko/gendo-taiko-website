@@ -6,16 +6,15 @@ import {
 	Typography, 
 } from '@mui/material';
 import eventsData from '../events.json';
-import shimeImage from '../media/taiko2019_promo_15.jpg';
 import Image from '../components/Image';
 import Event from '../components/Event';
 
 
 const Events = () => {
 	const currEvents = eventsData.current_events;
-	console.log(currEvents);
 	const pastEvents = eventsData.past_events;
-	console.log(pastEvents);
+
+	const shimeImage = process.env.PUBLIC_URL + '/images/taiko2019_promo_15.jpg';
 
 	return (
 		<Box> 
