@@ -11,10 +11,10 @@ const Media = () => {
 	listOfImages = importAll(require.context('/public/images/', false, /\.(png|jpe?g|svg)$/));
 
 	return (
-		<Box sx={{ padding : '100px', display: 'flex'}}>
-			<Typography variant='h1'>MEDIA</Typography>
+		<Box>
 			<Grid container px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>	
-				<ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+				<Typography variant='h1'>MEDIA</Typography>
+				<ImageList  cols={3} variant='masonry'>
 					{listOfImages.map((image) => (
 						<ImageListItem key={image.img}>
 							<img
