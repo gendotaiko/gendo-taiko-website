@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Typography, Box } from '@mui/material';
+import { Typography } from '@mui/material';
 
-// import Image from '../components/Image';
+import Image from '../components/Image';
 
 const CurrentMember = ({ members }) => {
 	return (
-		<Box>
+		<div style={{display:'inline'}}>
 			{/* <Typography variant="current">{english} GENERATION {japanese}</Typography> */}
 			{
 				members ? members.map((member, index) =>
-					<Box key={index}>
-						{/* <Image src={process.env.PUBLIC_URL + '/images/' + member.image}></Image> */}
-						<Typography>{member.name} {member.year}</Typography>
-					</Box>
+					<div key={index} style={{display:'inline'}}>
+						<Image src={process.env.PUBLIC_URL + '/images/' + member.image}></Image>
+						<Typography>{member.name} <br></br> {member.year}</Typography>
+					</div>
 				) : null
 			}
-		</Box>
+		</div>
 	);
 };
 
