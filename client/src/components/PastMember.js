@@ -22,6 +22,3 @@ PastMember.propTypes = {
 };
 
 export default PastMember;
-
-
-

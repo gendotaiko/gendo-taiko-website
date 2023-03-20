@@ -14,12 +14,6 @@ const CurrentMember = ({ members }) => {
 							alt={member.name}
 							src={process.env.PUBLIC_URL + '/member_images/' + member.image}
 						/>
-						{/* <Avatar 
-							alt={member.name}
-							src={process.env.PUBLIC_URL + '/member_images/' + member.image}
-							variant='square'
-							sx={{ width: '90%', height: '90%'}}
-						/> */}
 						<Typography>{member.name}</Typography>
 						<Typography>{member.year}</Typography>
 					</Grid>

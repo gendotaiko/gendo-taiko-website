@@ -40,3 +40,8 @@ How to create a branch:
 6. `git commit -m ‘message’`
 7. `git push`
 8. Make a pull request, merge!
+
+### TODOs
+- [ ] Fix Google Form responsiveness in the Contact page
+- [ ] Add an underline to "here" on the Contact page
+- [ ] Update the Events page with more recent events
