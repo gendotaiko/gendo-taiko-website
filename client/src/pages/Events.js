@@ -6,15 +6,12 @@ import {
 	Typography, 
 } from '@mui/material';
 import eventsData from '../events.json';
-import Image from '../components/Image';
 import Event from '../components/Event';
 
 
 const Events = () => {
 	const currEvents = eventsData.current_events;
 	const pastEvents = eventsData.past_events;
-
-	const shimeImage = process.env.PUBLIC_URL + '/images/taiko2019_promo_15.jpg';
 
 	return (
 		<Box> 
@@ -29,9 +26,6 @@ const Events = () => {
 					{currEvents.map((e) => (
 						<Event key ={e.id} isCurrent={true} date ={e.date} event={e.event} link ={e.link} details={e.details}></Event>
 					))}
-				</Grid>
-				<Grid item md={4}> {/* Image that spans whole thing */}
-					<Image src={shimeImage} /> {/* placeholder image */}
 				</Grid>
 			</Grid>
 			<Grid container px={{xs: 4, lg: 12, xl: 16}} pb={{xs: 2, lg: 4}}> {/* past events title */}

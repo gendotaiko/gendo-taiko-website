@@ -22,7 +22,7 @@ const Footer = () => {
 					</a>
 				</Box>
 				<Typography variant='footer'>GENDO TAIKO</Typography>
-				<Typography variant='footer' pb={2}>INFO@GENDOTAIKO.COM</Typography>
+				<Typography variant='footer' pb={2}>BROWN.TAIKO@GMAIL.COM</Typography>
 				<Typography variant='footer'>©2022 Gendo Taiko</Typography>
 			</Box>
 		</AppBar>

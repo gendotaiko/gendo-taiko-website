@@ -1,0 +1,154 @@
+{
+    "current_members": [
+        {
+            "english": "FIFTEENTH GENERATION",
+            "japanese": "十五代目",
+            "members": [
+                {
+                    "name": "Yilan Sun",
+                    "year": "RISD 21",
+                    "image": "Yilan_S_WEBSITE.png"
+                }
+            ]
+        },
+        {
+            "english": "SIXTEENTH GENERATION",
+            "japanese": "十六代目",
+            "members": [
+                {
+                    "name": "Eva Lau",
+                    "year": "Brown 23",
+                    "image": "Eva_L_WEBSITE.png"
+                },
+                {
+                    "name": "Jenny Tan",
+                    "year": "Brown 23",
+                    "image": "Jenny_T_WEBSITE.png"
+                },
+                {
+                    "name": "Jiyou Kang",
+                    "year": "RISD 23",
+                    "image": "Jiyou_K_WEBSITE.png"
+                },
+                {
+                    "name": "Samuel Leung",
+                    "year": "RISD 24",
+                    "image": "Sam_L_WEBSITE.png"
+                }
+            ]
+        },
+        {
+            "english": "SEVENTEENTH GENERATION",
+            "japanese": "十七代目",
+            "members": [
+                {
+                    "name": "Kikuyo Shaw",
+                    "year": "Brown 24",
+                    "image": "Kikuyo_S_WEBSITE.png"
+                },
+                {
+                    "name": "Rei Guo",
+                    "year": "Brown 25",
+                    "image": "Rei_G_WEBSITE.png"
+                },
+                {
+                    "name": "Filbert Aung",
+                    "year": "Brown 24",
+                    "image": "Filbert_A_WEBSITE.png"
+                },
+                {
+                    "name": "Ford Rowe",
+                    "year": "Brown 24",
+                    "image": "Ford_R_WEBSITE.png"
+                }
+            ]
+        },
+        {
+            "english": "EIGHTEENTH GENERATION",
+            "japanese": "十八代目",
+            "members": [
+                {
+                    "name": "Caleb Solomon",
+                    "year": "Brown 24",
+                    "image": "Caleb_S_WEBSITE.png"
+                },
+                {
+                    "name": "Ayaka Ono",
+                    "year": "Brown 25",
+                    "image": "Ayaka_O_WEBSITE.png"
+                },
+                {
+                    "name": "Ethan Jiang",
+                    "year": "Brown 25",
+                    "image": "Ethan_J_WEBSITE.png"
+                },
+                {
+                    "name": "Jedidiah Davis",
+                    "year": "Brown 25",
+                    "image": "Jedidiah_D_WEBSITE.png"
+                },
+                {
+                    "name": "Joe Maffa",
+                    "year": "Brown 25",
+                    "image": "Joe_M_WEBSITE.png"
+                },
+                {
+                    "name": "Emily Tom",
+                    "year": "Brown 25",
+                    "image": "Emily_T_WEBSITE.png"
+                },
+                {
+                    "name": "Logan Schultz",
+                    "year": "Brown 25",
+                    "image": "Logan_S_WEBSITE.png"
+                }
+            ]
+        },
+        {
+            "english": "NINETEENTH GENERATION",
+            "japanese": "十七代目",
+            "members": [
+                {
+                    "name": "Daniel Joh Kang",
+                    "year": "Brown 25",
+                    "image": "DanielJoh_Kang_WEBSITE.png"
+                },
+                {
+                    "name": "Julia Mei",
+                    "year": "RISD 25",
+                    "image": "Julia_M_WEBSITE.png"
+                },
+                {
+                    "name": "Albert Tang",
+                    "year": "Brown 26",
+                    "image": "Albert_T_WEBSITE.png"
+                },
+                {
+                    "name": "Daniella Castanheira",
+                    "year": "RISD 25",
+                    "image": "Danny_C_WEBSITE.png"
+                },
+                {
+                    "name": "J Banson",
+                    "year": "Brown 26",
+                    "image": "J_B_WEBSITE.png"
+                },
+                {
+                    "name": "Owen Cootey",
+                    "year": "Brown 25",
+                    "image": "Owen_M_WEBSITE.png"
+                },
+                {
+                    "name": "Ray Ho",
+                    "year": "RISD 25",
+                    "image": "Ray_H_WEBSITE.png"
+                }, 
+                {
+                    "name": "Ray Mandel-Mueller",
+                    "year": "Brown 26",
+                    "image": "Ray_M_WEBSITE.png"
+                }
+            ]
+        }
+    ]
+}
