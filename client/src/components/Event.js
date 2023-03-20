@@ -38,7 +38,7 @@ const Event = (props) => {
 						<Typography variant='body1'>{props.event}</Typography>
 					</Grid>
 					<Grid item md={3}>
-						<Link component= 'button' to = {props.link} color= '#ffffff' variant='link'>Link</Link>
+						<Link target='_blank' rel='noopener' href={props.link} color= '#ffffff' variant='link'>Link</Link>
 					</Grid>
 					<Grid item md={9}>
 						<Typography variant='body1'>{props.details}</Typography>
@@ -59,9 +59,9 @@ const Event = (props) => {
 								<Grid item md={8}>
 									<Typography variant='body1'> {props.details}</Typography>
 								</Grid>
-								<Grid item md={4}>
+								{ props.img ? <Grid item md={4}>
 									<Image src={process.env.PUBLIC_URL + '/images/' + props.img} /> {/* placeholder image */}
-								</Grid>
+								</Grid> : null}
 							</Grid>
 						</Collapse>
 						<Link component= 'button' onClick={handleChange} color= '#ffffff' variant='link'>

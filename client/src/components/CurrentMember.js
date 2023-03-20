@@ -1,22 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Typography, Box } from '@mui/material';
+import { Typography, Grid} from '@mui/material';
 
-// import Image from '../components/Image';
+import Image from '../components/Image';
 
 const CurrentMember = ({ members }) => {
 	return (
-		<Box>
-			{/* <Typography variant="current">{english} GENERATION {japanese}</Typography> */}
+		<Grid container spacing={2} pb={{ xs: 2, md: 4, lg: 6 }}>
 			{
 				members ? members.map((member, index) =>
-					<Box key={index}>
-						{/* <Image src={process.env.PUBLIC_URL + '/images/' + member.image}></Image> */}
-						<Typography>{member.name} {member.year}</Typography>
-					</Box>
+					<Grid item key={index} xs={12} md={4} lg={2}>
+						<Image 
+							alt={member.name}
+							src={process.env.PUBLIC_URL + '/member_images/' + member.image}
+						/>
+						{/* <Avatar 
+							alt={member.name}
+							src={process.env.PUBLIC_URL + '/member_images/' + member.image}
+							variant='square'
+							sx={{ width: '90%', height: '90%'}}
+						/> */}
+						<Typography>{member.name}</Typography>
+						<Typography>{member.year}</Typography>
+					</Grid>
 				) : null
 			}
-		</Box>
+		</Grid>
 	);
 };
 

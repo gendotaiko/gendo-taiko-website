@@ -1,16 +1,15 @@
 
 {
     "current_events": [
-      {"id": 1, "date":"02/11/22", "event":"CSA Performance • ", "link": "/https://browncsa.github.io/csa/", "details":"4023 Address Street Providence, Rhode Island 02903"},
-      {"id": 2, "date":"04/15/22", "event":"Spring Show Name • Night One • Ticket Link", "link": "yes", "details":"RISD Auditorium • 17 Canal Walk, Providence, Rhode Island 02903"},
-      {"id": 3, "date":"04/16/22", "event":"Spring Show Name • Night Two • Ticket Link", "link": "yes", "details":"RISD Auditorium • 17 Canal Walk, Providence, Rhode Island 02903"}
+      {"id": 0, "date":"04/14/23", "event":"Gendo Taiko Spring Show", "link": "", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"}
     ],
 
     "past_events":[
-      {"id": 1, "date":"11/19/21", "event":"Discover the World with RISD OISS", "details":"To celebrate the diverse, international student body of RISD, Gendo Taiko performed at the Discover the World event hosted by the Office of International Student Services.", "img":"taiko2019_promo_15.jpg"},
-      {"id": 2, "date":"11/06/21", "event":"Tufts Matsuri", "details":"Invited by the Japanese Cultural Club at Tufts University, Gendo Taiko performed at their annual Matsuri.", "img":"taiko2019_promo_15.jpg"},
-      {"id": 3, "date":"11/05/21", "event":"Wheeler International Week Show", "details":"We played a short show alongside the talented students of The Wheeler School celebrating their cultural heritage through the arts.", "img":"taiko2019_promo_15.jpg"},
-      {"id": 4, "date":"10/16/21", "event":"Waterfire", "details":"Gendo Taiko continued a longstanding tradition of performing at the popular Providence attraction Waterfire.", "img":"taiko2019_promo_15.jpg"}
+      {"id": 0, "date":"02/11/22", "event":"CSA Lunar New Year Banquet", "details":"194 Meeting St, Providence, RI 02906"},
+      {"id": 1, "date":"11/19/21", "event":"Discover the World with RISD OISS", "details":"To celebrate the diverse, international student body of RISD, Gendo Taiko performed at the Discover the World event hosted by the Office of International Student Services.", "img":""},
+      {"id": 2, "date":"11/06/21", "event":"Tufts Matsuri", "details":"Invited by the Japanese Cultural Club at Tufts University, Gendo Taiko performed at their annual Matsuri.", "img":""},
+      {"id": 3, "date":"11/05/21", "event":"Wheeler International Week Show", "details":"We played a short show alongside the talented students of The Wheeler School celebrating their cultural heritage through the arts.", "img":""},
+      {"id": 4, "date":"10/16/21", "event":"Waterfire", "details":"Gendo Taiko continued a longstanding tradition of performing at the popular Providence attraction Waterfire.", "img":""}
     ]
     
     
