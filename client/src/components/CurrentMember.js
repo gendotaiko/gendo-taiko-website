@@ -12,7 +12,7 @@ const CurrentMember = ({ members }) => {
 					<Grid item key={index} xs={12} md={4} lg={2}>
 						<Image 
 							alt={member.name}
-							src={process.env.PUBLIC_URL + '/member_images/' + member.image}
+							src={process.env.PUBLIC_URL + '/images/member_images/' + member.image}
 						/>
 						<Typography>{member.name}</Typography>
 						<Typography>{member.year}</Typography>

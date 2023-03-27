@@ -18,7 +18,7 @@ const Home = () => {
 					<Typography variant='h2' py={{ xs: 2 }}>Gendo Taiko is a contemporary Taiko drumming ensemble centered around celebrating diasporic Asian identities. </Typography>
 				</Grid>
 				<Grid item md={5}>
-					<Image src={'/images/home_1.png'} />
+					<Image src={'/images/home_1.jpg'} />
 				</Grid>
 			</Grid>
 			<Box px={{xs: 4, lg: 12, xl: 16}}>
@@ -29,7 +29,7 @@ const Home = () => {
 					<Instafeed token={process.env.REACT_APP_INSTAGRAM_TOKEN} limit={4} />
 					<Typography variant='h2' py={{ xs: 2 }}>The group consists of students from Brown University and the Rhode Island School of Design.</Typography>
 					<Typography variant='body1' py={{ xs: 4 }}></Typography>
-					<Image src={'/images/home_2.png'} />
+					<Image src={'/images/home_2.jpg'} />
 				</Grid>
 				<Grid item md={6}>
 					<Typography variant='h2' py={{ xs: 2 }}>Gendo Taiko plays across New England for events ranging from music festivals to small gatherings.</Typography>
