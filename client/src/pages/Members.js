@@ -18,7 +18,7 @@ const Members = () => {
 				{
 					currGenList.map((gen, index) => 
 						<Box key={index}>
-							<Typography variant='current'>{gen.english} GENERATION {gen.japanese}</Typography>
+							<Typography variant='current'>{gen.english} {gen.japanese}</Typography>
 							<CurrentMember members={gen.members} />
 						</Box>)
 				}

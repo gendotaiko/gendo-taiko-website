@@ -1,35 +1,9 @@
 {
     "current_members": [
         {
-            "english": "FIFTEENTH GENERATION",
-            "japanese": "十五代目",
-            "members": [
-                {
-                    "name": "Yilan Sun",
-                    "year": "RISD 21",
-                    "image": "Yilan_S_WEBSITE.png"
-                }
-            ]
-        },
-        {
             "english": "SIXTEENTH GENERATION",
             "japanese": "十六代目",
             "members": [
-                {
-                    "name": "Eva Lau",
-                    "year": "Brown 23",
-                    "image": "Eva_L_WEBSITE.png"
-                },
-                {
-                    "name": "Jenny Tan",
-                    "year": "Brown 23",
-                    "image": "Jenny_T_WEBSITE.png"
-                },
-                {
-                    "name": "Jiyou Kang",
-                    "year": "RISD 23",
-                    "image": "Jiyou_K_WEBSITE.png"
-                },
                 {
                     "name": "Samuel Leung",
                     "year": "RISD 24",

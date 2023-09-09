@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 const PastMember = ({english, japanese, members}) => {
 	return (
 		<div>
-			<Typography variant="past">{english} GENERATION {japanese}</Typography>
+			<Typography variant="past">{english} {japanese}</Typography>
 			{
 				members ? members.map((member, index) => 
 					<Typography key={index}>{member.name} • {member.year}</Typography>

@@ -1,6 +1,24 @@
 {
     "past_members": [
         {
+            "english": "SIXTEENTH GENERATION",
+            "japanese": "十六代目",
+            "members": [
+                {
+                    "name": "Eva Lau",
+                    "year": "Brown 23"
+                },
+                {
+                    "name": "Jenny Tan",
+                    "year": "Brown 23"
+                },
+                {
+                    "name": "Jiyou Kang",
+                    "year": "RISD 23"
+                }
+            ]
+        },
+        {
             "english": "FIFTEENTH GENERATION",
             "japanese": "十五代目",
             "members": [
@@ -23,6 +41,10 @@
                 {
                     "name": "Michael Chen",
                     "year": "Brown 22"
+                },
+                {
+                    "name": "Yilan Sun",
+                    "year": "RISD 21"
                 }
             ]
         }, 
