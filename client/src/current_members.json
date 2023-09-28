@@ -123,6 +123,47 @@
                     "image": "Ray_M_WEBSITE.png"
                 }
             ]
+        },
+        {
+            "english": "TWENTIETH GENERATION",
+            "japanese": "TODO",
+            "members": [
+                {
+                    "name": "Andrew Mao",
+                    "year": "Brown 27",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Ash Lassonde",
+                    "year": "Brown 27",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Fiona McGill",
+                    "year": "RISD 26",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Jenn Huynh",
+                    "year": "RISD 26",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Sophia Chiu",
+                    "year": "RISD 27",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Takaya Montez de Oca",
+                    "year": "Brown 27",
+                    "image": "GendoCrest.png"
+                },
+                {
+                    "name": "Takemi Sono-Knowles",
+                    "year": "Brown 27",
+                    "image": "GendoCrest.png"
+                }
+            ]
         }
     ]
 }
