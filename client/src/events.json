@@ -1,8 +1,8 @@
 
 {
     "current_events": [
-      {"id": 0, "date":"05/03/23", "event":"Gendo Taiko Spring Show (Day 1)", "link": "", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"},
-      {"id": 1, "date":"05/04/23", "event":"Gendo Taiko Spring Show (Day 2)", "link": "", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"}
+      {"id": 0, "date":"05/03/24", "event":"Gendo Taiko Spring Show (Day 1)", "link": "", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"},
+      {"id": 1, "date":"05/04/24", "event":"Gendo Taiko Spring Show (Day 2)", "link": "", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"}
     ],
 
     "past_events":[
