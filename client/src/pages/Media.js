@@ -14,11 +14,12 @@ const Media = () => {
 		<Box>
 			<Grid container px={{xs: 4, lg: 12, xl: 16}} pt={{xs: 4, lg: 8}} pb={{xs: 2, lg: 4}}>	
 				<Typography variant='h1'>MEDIA</Typography>
-				<ImageList  cols={3} variant='masonry'>
+				<ImageList cols={3} variant='masonry'>
 					{listOfImages.map((image) => (
 						<ImageListItem key={image.img}>
 							<img
 								src={image}
+
 							/>
 						</ImageListItem>
 					))}
