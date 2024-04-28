@@ -3,6 +3,7 @@ import {
 	Box, 
 	Grid,
 	Typography, 
+	Link,
 } from '@mui/material';
 
 import Instafeed from '../components/instagram/Instafeed';
@@ -16,6 +17,7 @@ const Home = () => {
 			<Grid container spacing={2} px={{xs: 4, lg: 12, xl: 16}} py={{xs: 4, lg: 8}}>
 				<Grid item md={7}>
 					<Typography variant='h2' py={{ xs: 2 }}>Gendo Taiko is a contemporary Taiko drumming ensemble centered around celebrating diasporic Asian identities. </Typography>
+					<Typography variant='h2' py={{ xs: 2 }}>Come to our 2024 Spring Show, Resurgence, on May 3 and 4 at 7 PM in the RISD Auditorium. Grab your tickets <Link target='_blank' href='Gendo Taiko Spring Show (Day 1)", "link": "https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=5295'>here</Link>  </Typography>
 				</Grid>
 				<Grid item md={5}>
 					<Image src={'/images/home_1.png'} />
