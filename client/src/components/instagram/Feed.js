@@ -15,7 +15,7 @@ const Feed = (props) => {
 					style={{ objectFit: 'cover '}}
 					src={media_url}
 					type="video/mp4"
-					controls playsinline>
+					controls>
 				</video>
 			</a>
 		);

@@ -1,8 +1,8 @@
 
 {
     "current_events": [
-      {"id": 0, "date":"05/03/24 @ 7 PM", "event":"Gendo Taiko Spring Show (Day 1)", "link": "https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=5295", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"},
-      {"id": 1, "date":"05/04/24 @ 7 PM", "event":"Gendo Taiko Spring Show (Day 2)", "link": "https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=5295", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"}
+      {"id": 0, "date":"04/18/25 @ 7 PM", "event":"Gendo Taiko Spring Show (Day 1)", "link": "https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=5688", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"},
+      {"id": 1, "date":"04/19/25 @ 7 PM", "event":"Gendo Taiko Spring Show (Day 2)", "link": "https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=5688", "details":"RISD Auditorium, 17 Canal Walk, Providence, RI 02902"}
     ],
 
     "past_events":[
